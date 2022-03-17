@@ -58,10 +58,10 @@ header nav ul li a {
 footer {
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -93,6 +93,21 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 
 .hero-form {
@@ -133,21 +148,6 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 } 
-
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
-
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138;
-}
 /* HERO STYLES END */
 
 
@@ -172,6 +172,7 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -188,27 +189,6 @@ section {
   background: #fce138;
 }
 
-.step h3 {
-  color: #024e76;
-  font-size: 46px;
-  flex: 1 30%;
-}
-
-.step-text {
-  flex: 12;
-}
-
-.step-text p {
-  color: #39a6b2;
-  font-size: 18px;
-}
-
-.step-text h4{
-  font-size: 26px;
-  line-height: 1.5;
-  color: #024e76;
-}
-
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -218,6 +198,12 @@ section {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step h3 {
+  color: #024e76;
+  font-size: 46px;
+  flex: 1 30%;
 }
 
 .step-info {
@@ -235,6 +221,22 @@ section {
 .step-img img {
   max-width: 100%;
 }
+
+.step-text {
+  flex: 12;
+}
+
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
+}
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -248,9 +250,9 @@ section {
 
 .trainer {
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
@@ -317,10 +319,6 @@ section {
   font-style: normal;
 }
 
-.contact-info a {
-  color: #fce138;
-}
-
 .contact-form input, .contact-form textarea {
   border: 1px solid #024e76;
   display: block;
@@ -341,6 +339,12 @@ section {
   padding: 15px 0;
   font-size: 16px;
 }
+
+.contact-info a {
+  color: #fce138;
+}
+
+
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
